@@ -3,6 +3,10 @@
   <groupId>dad.maven.gson</groupId>
   <artifactId>GsonSample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <properties>
+  <proyect.build.sourceEncoding>UTF-8</proyect.build.sourceEncoding>
+    <exec.mainClass>teclado</exec.mainClass>
+  </properties>
   <dependencies>
   <dependency>
     <groupId>com.google.code.gson</groupId>
