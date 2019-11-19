@@ -5,7 +5,9 @@
   <version>0.0.1-SNAPSHOT</version>
    <properties>
   <proyect.build.sourceEncoding>UTF-8</proyect.build.sourceEncoding>
-    <exec.mainClass>teclado</exec.mainClass>
+  <maven.compiler.target>11</maven.compiler.target>
+  <maven.compiler.source>11</maven.compiler.source>
+       <exec.mainClass>.Main</exec.mainClass>
   </properties>
   <dependencies>
   <dependency>
